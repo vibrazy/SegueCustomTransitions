@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1EF22E1773138700151FD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1EF22D1773138700151FD4 /* Default-568h@2x.png */; };
+		6C4CC03A177215C800192BF2 /* image2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4CC038177215C800192BF2 /* image2@2x.png */; };
+		6C4CC03B177215C800192BF2 /* image1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4CC039177215C800192BF2 /* image1@2x.png */; };
+		6C826B211770A452000A891F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C826B201770A452000A891F /* Foundation.framework */; };
+		6C826B231770A452000A891F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C826B221770A452000A891F /* CoreGraphics.framework */; };
+		6C826B251770A452000A891F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C826B241770A452000A891F /* UIKit.framework */; };
+		6C826B2B1770A452000A891F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C826B291770A452000A891F /* InfoPlist.strings */; };
+		6C826B2D1770A452000A891F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C826B2C1770A452000A891F /* main.m */; };
+		6C826B311770A452000A891F /* SCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C826B301770A452000A891F /* SCTAppDelegate.m */; };
+		6C826B341770A452000A891F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C826B321770A452000A891F /* Main_iPhone.storyboard */; };
+		6C826B371770A452000A891F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C826B351770A452000A891F /* Main_iPad.storyboard */; };
+		6C826B3A1770A452000A891F /* SCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C826B391770A452000A891F /* SCTViewController.m */; };
+		6C826B3C1770A452000A891F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C826B3B1770A452000A891F /* Images.xcassets */; };
+		6C826B431770A452000A891F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C826B421770A452000A891F /* XCTest.framework */; };
+		6C826B441770A452000A891F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C826B201770A452000A891F /* Foundation.framework */; };
+		6C826B451770A452000A891F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C826B241770A452000A891F /* UIKit.framework */; };
+		6C826B4D1770A452000A891F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C826B4B1770A452000A891F /* InfoPlist.strings */; };
+		6C826B4F1770A452000A891F /* SegueCustomTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C826B4E1770A452000A891F /* SegueCustomTransitionsTests.m */; };
+		6CB4F3951773003800E584F9 /* SCTTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4F3881773003800E584F9 /* SCTTransitionViewController.m */; };
+		6CB4F3961773003800E584F9 /* SCT3DFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4F38B1773003800E584F9 /* SCT3DFlip.m */; };
+		6CB4F3981773003800E584F9 /* SCTPushLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4F38F1773003800E584F9 /* SCTPushLeft.m */; };
+		6CB4F3991773003800E584F9 /* SCTTiltRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4F3911773003800E584F9 /* SCTTiltRight.m */; };
+		6CB4F39A1773003800E584F9 /* UIStoryboardSegue+CustomTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4F3941773003800E584F9 /* UIStoryboardSegue+CustomTransitions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C826B461770A452000A891F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C826B151770A452000A891F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C826B1C1770A452000A891F;
+			remoteInfo = SegueCustomTransitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C1EF22D1773138700151FD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6C4CC038177215C800192BF2 /* image2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image2@2x.png"; path = "SegueCustomTransitions/Assets/image2@2x.png"; sourceTree = "<group>"; };
+		6C4CC039177215C800192BF2 /* image1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image1@2x.png"; path = "SegueCustomTransitions/Assets/image1@2x.png"; sourceTree = "<group>"; };
+		6C826B1D1770A452000A891F /* SegueCustomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegueCustomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C826B201770A452000A891F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C826B221770A452000A891F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C826B241770A452000A891F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C826B281770A452000A891F /* SegueCustomTransitions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegueCustomTransitions-Info.plist"; sourceTree = "<group>"; };
+		6C826B2A1770A452000A891F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C826B2C1770A452000A891F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C826B2E1770A452000A891F /* SegueCustomTransitions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegueCustomTransitions-Prefix.pch"; sourceTree = "<group>"; };
+		6C826B2F1770A452000A891F /* SCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTAppDelegate.h; sourceTree = "<group>"; };
+		6C826B301770A452000A891F /* SCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTAppDelegate.m; sourceTree = "<group>"; };
+		6C826B331770A452000A891F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6C826B361770A452000A891F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6C826B381770A452000A891F /* SCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTViewController.h; sourceTree = "<group>"; };
+		6C826B391770A452000A891F /* SCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTViewController.m; sourceTree = "<group>"; };
+		6C826B3B1770A452000A891F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C826B411770A452000A891F /* SegueCustomTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueCustomTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C826B421770A452000A891F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C826B4A1770A452000A891F /* SegueCustomTransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegueCustomTransitionsTests-Info.plist"; sourceTree = "<group>"; };
+		6C826B4C1770A452000A891F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C826B4E1770A452000A891F /* SegueCustomTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegueCustomTransitionsTests.m; sourceTree = "<group>"; };
+		6C9572F9177336E200C5AEF5 /* SCTInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCTInclude.h; path = SCTSegueCustomTransitionSource/Include/SCTInclude.h; sourceTree = SOURCE_ROOT; };
+		6CB4F3871773003800E584F9 /* SCTTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTTransitionViewController.h; sourceTree = "<group>"; };
+		6CB4F3881773003800E584F9 /* SCTTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTTransitionViewController.m; sourceTree = "<group>"; };
+		6CB4F38A1773003800E584F9 /* SCT3DFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCT3DFlip.h; sourceTree = "<group>"; };
+		6CB4F38B1773003800E584F9 /* SCT3DFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCT3DFlip.m; sourceTree = "<group>"; };
+		6CB4F38E1773003800E584F9 /* SCTPushLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTPushLeft.h; sourceTree = "<group>"; };
+		6CB4F38F1773003800E584F9 /* SCTPushLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTPushLeft.m; sourceTree = "<group>"; };
+		6CB4F3901773003800E584F9 /* SCTTiltRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTTiltRight.h; sourceTree = "<group>"; };
+		6CB4F3911773003800E584F9 /* SCTTiltRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTTiltRight.m; sourceTree = "<group>"; };
+		6CB4F3931773003800E584F9 /* UIStoryboardSegue+CustomTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+CustomTransitions.h"; sourceTree = "<group>"; };
+		6CB4F3941773003800E584F9 /* UIStoryboardSegue+CustomTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+CustomTransitions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C826B1A1770A452000A891F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C826B231770A452000A891F /* CoreGraphics.framework in Frameworks */,
+				6C826B251770A452000A891F /* UIKit.framework in Frameworks */,
+				6C826B211770A452000A891F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C826B3E1770A452000A891F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C826B431770A452000A891F /* XCTest.framework in Frameworks */,
+				6C826B451770A452000A891F /* UIKit.framework in Frameworks */,
+				6C826B441770A452000A891F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4CC037177213DA00192BF2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C4CC038177215C800192BF2 /* image2@2x.png */,
+				6C4CC039177215C800192BF2 /* image1@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6C826B141770A451000A891F = {
+			isa = PBXGroup;
+			children = (
+				6C1EF22D1773138700151FD4 /* Default-568h@2x.png */,
+				6CB4F3851773003800E584F9 /* SCTSegueCustomTransitionSource */,
+				6C4CC037177213DA00192BF2 /* Assets */,
+				6C826B261770A452000A891F /* SegueCustomTransitions */,
+				6C826B481770A452000A891F /* SegueCustomTransitionsTests */,
+				6C826B1F1770A452000A891F /* Frameworks */,
+				6C826B1E1770A452000A891F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C826B1E1770A452000A891F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C826B1D1770A452000A891F /* SegueCustomTransitions.app */,
+				6C826B411770A452000A891F /* SegueCustomTransitionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C826B1F1770A452000A891F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C826B201770A452000A891F /* Foundation.framework */,
+				6C826B221770A452000A891F /* CoreGraphics.framework */,
+				6C826B241770A452000A891F /* UIKit.framework */,
+				6C826B421770A452000A891F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C826B261770A452000A891F /* SegueCustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				6C826B2F1770A452000A891F /* SCTAppDelegate.h */,
+				6C826B301770A452000A891F /* SCTAppDelegate.m */,
+				6C826B321770A452000A891F /* Main_iPhone.storyboard */,
+				6C826B351770A452000A891F /* Main_iPad.storyboard */,
+				6C826B381770A452000A891F /* SCTViewController.h */,
+				6C826B391770A452000A891F /* SCTViewController.m */,
+				6C826B3B1770A452000A891F /* Images.xcassets */,
+				6C826B271770A452000A891F /* Supporting Files */,
+			);
+			path = SegueCustomTransitions;
+			sourceTree = "<group>";
+		};
+		6C826B271770A452000A891F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C826B281770A452000A891F /* SegueCustomTransitions-Info.plist */,
+				6C826B291770A452000A891F /* InfoPlist.strings */,
+				6C826B2C1770A452000A891F /* main.m */,
+				6C826B2E1770A452000A891F /* SegueCustomTransitions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C826B481770A452000A891F /* SegueCustomTransitionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C826B4E1770A452000A891F /* SegueCustomTransitionsTests.m */,
+				6C826B491770A452000A891F /* Supporting Files */,
+			);
+			path = SegueCustomTransitionsTests;
+			sourceTree = "<group>";
+		};
+		6C826B491770A452000A891F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C826B4A1770A452000A891F /* SegueCustomTransitionsTests-Info.plist */,
+				6C826B4B1770A452000A891F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C9572FA177336E700C5AEF5 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				6C9572F9177336E200C5AEF5 /* SCTInclude.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		6CB4F3851773003800E584F9 /* SCTSegueCustomTransitionSource */ = {
+			isa = PBXGroup;
+			children = (
+				6C9572FA177336E700C5AEF5 /* Include */,
+				6CB4F3861773003800E584F9 /* TransitionViewController */,
+				6CB4F3891773003800E584F9 /* UIStoryBoardCustomSegues */,
+				6CB4F3921773003800E584F9 /* UIStoryBoardSegueCategory */,
+			);
+			path = SCTSegueCustomTransitionSource;
+			sourceTree = "<group>";
+		};
+		6CB4F3861773003800E584F9 /* TransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CB4F3871773003800E584F9 /* SCTTransitionViewController.h */,
+				6CB4F3881773003800E584F9 /* SCTTransitionViewController.m */,
+			);
+			path = TransitionViewController;
+			sourceTree = "<group>";
+		};
+		6CB4F3891773003800E584F9 /* UIStoryBoardCustomSegues */ = {
+			isa = PBXGroup;
+			children = (
+				6CB4F38A1773003800E584F9 /* SCT3DFlip.h */,
+				6CB4F38B1773003800E584F9 /* SCT3DFlip.m */,
+				6CB4F38E1773003800E584F9 /* SCTPushLeft.h */,
+				6CB4F38F1773003800E584F9 /* SCTPushLeft.m */,
+				6CB4F3901773003800E584F9 /* SCTTiltRight.h */,
+				6CB4F3911773003800E584F9 /* SCTTiltRight.m */,
+			);
+			path = UIStoryBoardCustomSegues;
+			sourceTree = "<group>";
+		};
+		6CB4F3921773003800E584F9 /* UIStoryBoardSegueCategory */ = {
+			isa = PBXGroup;
+			children = (
+				6CB4F3931773003800E584F9 /* UIStoryboardSegue+CustomTransitions.h */,
+				6CB4F3941773003800E584F9 /* UIStoryboardSegue+CustomTransitions.m */,
+			);
+			path = UIStoryBoardSegueCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C826B1C1770A452000A891F /* SegueCustomTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C826B521770A452000A891F /* Build configuration list for PBXNativeTarget "SegueCustomTransitions" */;
+			buildPhases = (
+				6C826B191770A452000A891F /* Sources */,
+				6C826B1A1770A452000A891F /* Frameworks */,
+				6C826B1B1770A452000A891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegueCustomTransitions;
+			productName = SegueCustomTransitions;
+			productReference = 6C826B1D1770A452000A891F /* SegueCustomTransitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C826B401770A452000A891F /* SegueCustomTransitionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C826B551770A452000A891F /* Build configuration list for PBXNativeTarget "SegueCustomTransitionsTests" */;
+			buildPhases = (
+				6C826B3D1770A452000A891F /* Sources */,
+				6C826B3E1770A452000A891F /* Frameworks */,
+				6C826B3F1770A452000A891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C826B471770A452000A891F /* PBXTargetDependency */,
+			);
+			name = SegueCustomTransitionsTests;
+			productName = SegueCustomTransitionsTests;
+			productReference = 6C826B411770A452000A891F /* SegueCustomTransitionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C826B151770A452000A891F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DTV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Daniel Tavares";
+				TargetAttributes = {
+					6C826B401770A452000A891F = {
+						TestTargetID = 6C826B1C1770A452000A891F;
+					};
+				};
+			};
+			buildConfigurationList = 6C826B181770A452000A891F /* Build configuration list for PBXProject "SegueCustomTransitions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C826B141770A451000A891F;
+			productRefGroup = 6C826B1E1770A452000A891F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C826B1C1770A452000A891F /* SegueCustomTransitions */,
+				6C826B401770A452000A891F /* SegueCustomTransitionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C826B1B1770A452000A891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C826B371770A452000A891F /* Main_iPad.storyboard in Resources */,
+				6C826B3C1770A452000A891F /* Images.xcassets in Resources */,
+				6C826B341770A452000A891F /* Main_iPhone.storyboard in Resources */,
+				6C4CC03A177215C800192BF2 /* image2@2x.png in Resources */,
+				6C4CC03B177215C800192BF2 /* image1@2x.png in Resources */,
+				6C826B2B1770A452000A891F /* InfoPlist.strings in Resources */,
+				6C1EF22E1773138700151FD4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C826B3F1770A452000A891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C826B4D1770A452000A891F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C826B191770A452000A891F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB4F3951773003800E584F9 /* SCTTransitionViewController.m in Sources */,
+				6CB4F3961773003800E584F9 /* SCT3DFlip.m in Sources */,
+				6CB4F3981773003800E584F9 /* SCTPushLeft.m in Sources */,
+				6C826B2D1770A452000A891F /* main.m in Sources */,
+				6C826B3A1770A452000A891F /* SCTViewController.m in Sources */,
+				6CB4F3991773003800E584F9 /* SCTTiltRight.m in Sources */,
+				6C826B311770A452000A891F /* SCTAppDelegate.m in Sources */,
+				6CB4F39A1773003800E584F9 /* UIStoryboardSegue+CustomTransitions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C826B3D1770A452000A891F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C826B4F1770A452000A891F /* SegueCustomTransitionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C826B471770A452000A891F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C826B1C1770A452000A891F /* SegueCustomTransitions */;
+			targetProxy = 6C826B461770A452000A891F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C826B291770A452000A891F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C826B2A1770A452000A891F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C826B321770A452000A891F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C826B331770A452000A891F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6C826B351770A452000A891F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C826B361770A452000A891F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6C826B4B1770A452000A891F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C826B4C1770A452000A891F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C826B501770A452000A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C826B511770A452000A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C826B531770A452000A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegueCustomTransitions/SegueCustomTransitions-Prefix.pch";
+				INFOPLIST_FILE = "SegueCustomTransitions/SegueCustomTransitions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C826B541770A452000A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegueCustomTransitions/SegueCustomTransitions-Prefix.pch";
+				INFOPLIST_FILE = "SegueCustomTransitions/SegueCustomTransitions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C826B561770A452000A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SegueCustomTransitions.app/SegueCustomTransitions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegueCustomTransitions/SegueCustomTransitions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SegueCustomTransitionsTests/SegueCustomTransitionsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C826B571770A452000A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SegueCustomTransitions.app/SegueCustomTransitions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegueCustomTransitions/SegueCustomTransitions-Prefix.pch";
+				INFOPLIST_FILE = "SegueCustomTransitionsTests/SegueCustomTransitionsTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C826B181770A452000A891F /* Build configuration list for PBXProject "SegueCustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C826B501770A452000A891F /* Debug */,
+				6C826B511770A452000A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C826B521770A452000A891F /* Build configuration list for PBXNativeTarget "SegueCustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C826B531770A452000A891F /* Debug */,
+				6C826B541770A452000A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C826B551770A452000A891F /* Build configuration list for PBXNativeTarget "SegueCustomTransitionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C826B561770A452000A891F /* Debug */,
+				6C826B571770A452000A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C826B151770A452000A891F /* Project object */;
+}
