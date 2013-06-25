@@ -32,7 +32,7 @@
 
 @end
 
-#pragma mark - UIViewController(MHNatGeoViewControllerTransition)
+#pragma mark - UIViewController(SCTTransitionViewController)
 @interface UIViewController(SCTTransitionViewController)
 
 @property(nonatomic,retain) UIViewController * presentedFromViewController;

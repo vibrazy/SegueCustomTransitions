@@ -24,6 +24,11 @@ double radianFromDegree(float degrees) {
 @synthesize dismissing = _dismissing;
 @synthesize segue = _segue;
 
+#pragma mark - Helper
++(UIWindow *)topWindow
+{
+    return [[[UIApplication sharedApplication] windows] lastObject];
+}
 
 - (id)initWithSourceView:(UIView *)sourceView
          destinationView:(UIView *)destinationView
@@ -76,14 +81,14 @@ double radianFromDegree(float degrees) {
     
     destinationView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
     
-    [[[[UIApplication sharedApplication]delegate]window]addSubview:destinationView];
+    [[self topWindow]  addSubview:destinationView];
     
-    SCTTransitionViewController * natGeoTransition = [[SCTTransitionViewController alloc] initWithSourceView:[source view]
+    SCTTransitionViewController * transition = [[SCTTransitionViewController alloc] initWithSourceView:[source view]
                                                                                              destinationView:[destination view]
                                                                                                        segue:segue];
     
         
-    [natGeoTransition perform:^(BOOL finished)
+    [transition perform:^(BOOL finished)
      {
          [destination setPresentedFromViewController:source];
         [destination setSegue:segue];
@@ -104,15 +109,15 @@ double radianFromDegree(float degrees) {
     
     sourceView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
     
-    [[[[UIApplication sharedApplication]delegate]window]addSubview:sourceView];
+    [[self topWindow] addSubview:sourceView];
     
-    SCTTransitionViewController * natGeoTransition = [[SCTTransitionViewController alloc] initWithSourceView:sourceView
+    SCTTransitionViewController * transition = [[SCTTransitionViewController alloc] initWithSourceView:sourceView
                                                                                              destinationView:[viewController view]
                                                                                                        segue:viewController.segue];
     
-    [natGeoTransition setDismissing:YES];
+    [transition setDismissing:YES];
     
-    [natGeoTransition perform:^(BOOL finished)
+    [transition perform:^(BOOL finished)
     {
         if(finished)
         {
@@ -191,13 +196,13 @@ static char segueKey;
 
 - (void) setPresentedFromViewController:(UIViewController *)viewController
 {
-    [self willChangeValueForKey:@"natGeoPresentedFromViewController"];
+    [self willChangeValueForKey:@"presentedFromViewController"];
     objc_setAssociatedObject( self,
                              &presentedFromViewControllerKey,
                              viewController,
                              OBJC_ASSOCIATION_RETAIN );
     
-    [self didChangeValueForKey:@"natGeoPresentedFromViewController"];
+    [self didChangeValueForKey:@"presentedFromViewController"];
 }
 
 - (UIViewController*) presentedFromViewController {
